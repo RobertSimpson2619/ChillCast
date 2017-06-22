@@ -60,7 +60,7 @@ var transporter = nodemailer.createTransport({
 var mailOptions = {
     from: 'chillcast09@gmail.com',
     to: emailToSend,
-    subject: 'Sending Email using Node.js',
+    subject: 'Your Weather Forecast!',
     text: 'That was easy!',
     html: 
     '<p> Forecast Date and Time: '+ weatherForecastTime + '</p>' + '<br>' +
